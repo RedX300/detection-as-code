@@ -1,0 +1,15 @@
+# .gitignore
+*.pyc
+__pycache__/
+.env
+*.log
+converted/
+output/
+*.tar.gz
+.terraform/
+terraform.tfstate*
+attack-range/config/*.yml
+!attack-range/templates/*.yml
+deploy/TA-dac/local/
+.DS_Store
+venv/
